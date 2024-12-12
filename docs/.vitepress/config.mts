@@ -7,6 +7,9 @@ export default defineConfig({
   description: "A cool fablab space",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    search: {
+      provider: 'local'
+    },
     nav: [
       {
         text: '基础',
