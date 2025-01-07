@@ -2,52 +2,13 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/FabLab-NB/',
   title: "FabLab-NB",
-  description: "A cool fablab space",
+  description: "A COOL SPACE",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    search: {
-      provider: 'local'
-    },
     nav: [
-      {
-        text: '基础',
-        link: '/basic/index'
-      },
-      {
-        text: 'API',
-        link: '/api/index'
-      },
-      {
-        text: '核心篇',
-        link: '/core/index'
-      },
-      {
-        text: '实战教学篇',
-        items: [
-          {
-            text: '原生 JS 开发',
-            link: '/teach/index'
-          },
-          {
-            text: 'Vue', 
-            link: '/teach/index'
-          },
-          {
-            text: 'React', 
-            link: '/teach/index'
-          },
-          {
-            text: 'CRXJS Vue', 
-            link: '/teach/index'
-          },
-          {
-            text: 'CRXJS React', 
-            link: '/teach/index'
-          }
-        ]
-      }
+      { text: 'Home', link: '/' },
+      { text: 'Examples', link: '/markdown-examples' }
     ],
 
     sidebar: [
@@ -55,8 +16,7 @@ export default defineConfig({
         text: 'Examples',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' },
-          { text: 'PM', link: '/pm/pm' }
+          { text: 'Runtime API Examples', link: '/api-examples' }
         ]
       }
     ],
