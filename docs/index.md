@@ -4,15 +4,15 @@ layout: home
 
 hero:
   name: "FabLab-NB"
-  text: "A COOL SPACE"
-  tagline: My great project tagline
+  text: "A cool space for research and digital fabrication"
+  tagline: For Product Design and Manufacture
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text:About us
+      link: /Aboutus
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Research
+      link: /research
 
 features:
   - title: Feature A
