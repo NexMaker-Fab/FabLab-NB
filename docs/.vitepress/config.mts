@@ -25,7 +25,7 @@ export default defineConfig({
       {
         text: 'Fabcourse', link: '/en/fabcourse/fabcourse',
         items: [
-            { text: 'Fab academy2024', link: '/en/aboutus/aboutus' },
+            { text: 'Fab academy2025', link: '/en/aboutus/aboutus' },
             { text: 'Fab course', link: '/en/fabcourse/fabcourse' },
             { text: 'Research', link: '/en/research/research' }
           
