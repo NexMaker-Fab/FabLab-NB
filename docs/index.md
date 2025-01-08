@@ -9,10 +9,23 @@ hero:
   actions:
     - theme: brand
       text: About us
-      link: /Aboutus
-    - theme: alt
+      link: /en/Aboutus
+    - theme: alt 
+      text: Fab course
+      link: /en/fabcourse/fabcourse
+    - theme: alt  
       text: Research
-      link: /research
+      link: /en/research/research
+    - theme: alt  
+      text: Activity
+      link: /en/activity/activity
+    - theme: alt  
+      text: About us, 
+      link: /en/aboutus
+
+
+
+
 
 features:
   - title: Feature A

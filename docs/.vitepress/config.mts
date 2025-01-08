@@ -19,18 +19,16 @@ export default defineConfig({
         text: 'Home', link: '/',
         items: [
           { text: 'About us', link: '/en/aboutus/aboutus' },
-          { text: 'Fab course', link: '/en/fabcourse/fabcourse' },
-          { text: 'Research', link: '/en/research/research' },
           { text: 'Activity', link: '/en/activity/activity' }
         ]
       },
       {
         text: 'Fabcourse', link: '/en/fabcourse/fabcourse',
         items: [
-            { text: 'About us', link: '/en/aboutus/aboutus' },
+            { text: 'Fab academy2024', link: '/en/aboutus/aboutus' },
             { text: 'Fab course', link: '/en/fabcourse/fabcourse' },
-            { text: 'Research', link: '/en/research/research' },
-            { text: 'Activity', link: '/en/activity/activity' }
+            { text: 'Research', link: '/en/research/research' }
+          
 
         ]
       }
