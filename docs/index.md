@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "FabLab-NB"
-  text: "A cool space for research and digital fabrication"
+  text: "A cool space "
   tagline: For Product Design and Manufacture
   actions:
     - theme: brand
