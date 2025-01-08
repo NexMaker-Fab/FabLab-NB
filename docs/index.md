@@ -1,38 +1,32 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
   name: "FabLab-NB"
-  text: "A cool space "
-  tagline: For Product Design and Manufacture
+  text: "A cool space"
+  tagline: "For Product Design and Manufacture"
+  image:
+    src: /src/logo.png
+    alt: VitePress
   actions:
     - theme: brand
       text: About us
-      link: /en/Aboutus
-    - theme: alt 
+      link: /en/aboutus
+    - theme: alt
       text: Fab course
       link: /en/fabcourse/fabcourse
-    - theme: alt  
-      text: Research
-      link: /en/research/research
-    - theme: alt  
-      text: Activity
-      link: /en/activity/activity
-    - theme: alt  
-      text: About us, 
-      link: /en/aboutus
-
-
-
-
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Activity
+    details: "We would put all activity information here."
+    link: /en/activity/activity
+    linkText: "Learn more"
+  - title: Fab course
+    details: "Introduce course in local and global; all participants would write their homework and final project on the web."
+    link: /en/fabcourse/fabcourse
+    linkText: "Learn more"
+  - title: Research
+    details: "Explore research activities related to FabLab."
+    link: /en/research/research
+    linkText: "Learn more"
 ---
-
