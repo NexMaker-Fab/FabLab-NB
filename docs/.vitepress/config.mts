@@ -3,26 +3,33 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "FabLab-NB",
-  description: "A COOL SPACE",
+  description: "A Cool Space",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Fab course', link: '/en/fabcourse/fabcourse' },
+      { text: 'Research', link: '/en/research/research' },
+      { text: 'Activity', link: '/en/activity/activity' },
+      { text: 'About us', link: '/en/aboutus/aboutus' }
     ],
 
     sidebar: [
       {
         text: 'Examples',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Home', link: '/' },
+          { text: 'About us', link: '/en/aboutus/aboutus' },
+          { text: 'Fab course', link: '/en/fabcourse/fabcourse' },
+          { text: 'Research', link: '/en/research/research' },
+          { text: 'Activity', link: '/en/activity/activity' }
+
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'UNNC', link: 'https://www.unnc.edu.cn/' }
     ]
   }
 })
