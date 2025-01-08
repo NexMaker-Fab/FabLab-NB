@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base:"/",
+  base:'/FabLab-NB/',
   title: "FabLab-NB",
   description: "A Cool Space",
   themeConfig: {
