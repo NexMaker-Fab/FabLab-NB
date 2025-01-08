@@ -8,7 +8,7 @@ hero:
   tagline: For Product Design and Manufacture
   actions:
     - theme: brand
-      text:About us
+      text: About us
       link: /Aboutus
     - theme: alt
       text: Research
