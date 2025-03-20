@@ -46,7 +46,6 @@ export default defineConfig({
             { text: 'Fab course', link: '/en/fabcourse/fabcourse' },
             { text: 'Research', link: '/en/research/research' }
           
-
         ]
       }
     ],
