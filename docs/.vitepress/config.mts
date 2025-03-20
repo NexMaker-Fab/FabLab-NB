@@ -14,7 +14,7 @@ export default defineConfig({
           { text: '2025-1-Fengyi Zhao', link: 'https://unnc-fab.github.io/2025-1-FYZHAO/' },
           { text: '2025-1-Yanbing', link: 'https://unnc-fab.github.io/2025-1-YANBING/' },
           { text: '2025-1-Ao liu', link: 'https://unnc-fab.github.io/2025-1-AL/' },
-          { text: '2025-1-Xiaona Xu', link: 'https://unnc-fab.github.io/2025-1-XiaonaXu/markdown-examples.html' },
+          { text: '2025-1-Xiaona Xu', link: 'https://unnc-fab.github.io/2025-1-XiaonaXu/' },
           { text: '2025-1-Yanbing', link: 'https://unnc-fab.github.io/2025-1-YANBING/' },
           { text: '2025-1-Xu Sun', link: '  https://fabacademy.org/2025/labs/unnc/students/xu-sun/' },
           { text: '2025-1-Yaolun Zhang', link: 'https://fabacademy.org/2023/labs/ningbo/students/yaorun-zhang/' }
@@ -23,7 +23,13 @@ export default defineConfig({
         ]
        },
       { text: 'Research', link: '/en/research/research' },
-      { text: 'Activity', link: '/en/activity/activity' },
+      { text: 'Activity', 
+        items: [
+          { text: '2025 Autodesk fusion360 workshop', link: ' en/activity/2025autodeskfusion' },
+          { text: '2025 hackathon', link: 'en/activity/2025hackathon' }
+        ]
+       },
+      { text: 'Hardware', link: '/en/hardware/hardware' },
       { text: 'About us', link: '/en/aboutus' }
     ],
 
