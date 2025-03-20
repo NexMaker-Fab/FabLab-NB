@@ -9,7 +9,17 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
 
-      { text: 'Tutorials', link: 'en/tutorials/tutorials' },
+      { text: 'Tutorials',  
+        items: [
+          { text: 'Project manage', link: 'en/tutorials/1projectmange/Assessment1' },
+          { text: '2025-1-Yanbing', link: 'https://unnc-fab.github.io/2025-1-YANBING/' },
+          { text: '2025-1-Ao liu', link: 'https://unnc-fab.github.io/2025-1-AL/' },
+          { text: '2025-1-Xiaona Xu', link: 'https://unnc-fab.github.io/2025-1-XiaonaXu/' },
+          { text: '2025-1-Yanbing', link: 'https://unnc-fab.github.io/2025-1-YANBING/' }
+        ]
+
+
+      },
       { text: 'Fab course', 
         items: [
           { text: '2025-1-Fengyi Zhao', link: 'https://unnc-fab.github.io/2025-1-FYZHAO/' },
@@ -32,6 +42,17 @@ export default defineConfig({
     ],
 
     sidebar: [
+      { text: 'Tutorials',  
+        items: [
+          { text: 'Project manage', link: 'en/tutorials/1projectmange/Assessment1' },
+          { text: '2025-1-Yanbing', link: 'https://unnc-fab.github.io/2025-1-YANBING/' },
+          { text: '2025-1-Ao liu', link: 'https://unnc-fab.github.io/2025-1-AL/' },
+          { text: '2025-1-Xiaona Xu', link: 'https://unnc-fab.github.io/2025-1-XiaonaXu/' },
+          { text: '2025-1-Yanbing', link: 'https://unnc-fab.github.io/2025-1-YANBING/' }
+        ]
+
+
+      },
       {
         text: 'Home', link: '/',
         items: [
