@@ -9,6 +9,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
+      { text: 'Tutorials', link: 'en/tutorials/tutorials' },
       { text: 'Fab course', 
         items: [
           { text: '2025-1-Fengyi Zhao', link: 'https://unnc-fab.github.io/2025-1-FYZHAO/' },
@@ -19,6 +20,7 @@ export default defineConfig({
         ]
        },
       { text: 'Research', link: '/en/research/research' },
+      { text: 'Exhibition', link: '/en/exhibition/exhibition' },
       { text: 'Activity', 
         items: [
           { text: '2025 Autodesk fusion360 workshop', link: ' en/activity/2025autodeskfusion' },
