@@ -9,7 +9,12 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Fab course', link: '/en/fabcourse/fabcourse' },
+      { text: 'Fab course', 
+        items: [
+          { text: 'About us', link: '/en/aboutus/aboutus' },
+          { text: 'Activity', link: '/en/activity/activity' }
+        ]
+       },
       { text: 'Research', link: '/en/research/research' },
       { text: 'Activity', link: '/en/activity/activity' },
       { text: 'About us', link: '/en/aboutus' }
