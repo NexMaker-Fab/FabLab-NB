@@ -1,1 +1,0 @@
-this is the list of our lab hardware

@@ -1,1 +1,0 @@
-we would show the information for this course
