@@ -22,8 +22,7 @@
 </div>
 
 <!--banner-->
-<div class="banner cream" style="background-image: url('../img/hardware/banner01.png'); background-size: cover; background-position: center;">
-
+<div class="banner cream" id="banner" style="background-size: cover; background-position: center;">
     <div class="shade">
         <h2>Empowering Scientific Innovation
             <span>Hardware Support for Research & Design</span>
@@ -54,13 +53,14 @@
                 <h2>Research Hardware<span>Scientific Tools and Platforms</span></h2>
                 <p>Current Location:
                     <a href="index.html">Home</a> >
-                    <a href="list_cultureJ.html">Hardware</a> >
+                    <a href="#">Hardware</a> >
                     <a href="#">Overview</a>
                 </p>
             </div>
 
             <div class="immateriality">
-                <ul class="clear">
+                <!-- 第1页内容 -->
+                <ul class="clear page-content" id="page1">
                     <li>
                         <div class="p-img">
                             <img src="img/hardware/3D printing.png" alt="" style="width: 100%; height: auto; object-fit: contain;">
@@ -97,6 +97,11 @@
                         </div>
                         <p>Fume Hood</p>
                     </li>
+                </ul>
+
+                <!-- 第2页内容 -->
+                <ul class="clear page-content" id="page2" style="display: none;">
+                    
                     <li>
                         <div class="p-img">
                             <img src="img/hardware/bio3.png" alt="" style="width: 100%; height: auto; object-fit: contain;">
@@ -125,11 +130,10 @@
             </div>
 
             <div class="btn">
-                <button>Previous</button>
-                <a class="cur">1</a>
-                <a >2</a>
-                <a>3</a>
-                <button>Next</button>
+                <button onclick="prevPage()" id="prevBtn">Previous</button>
+                <a class="cur" onclick="showPage(1)" id="page1Btn">1</a>
+                <a onclick="showPage(2)" id="page2Btn">2</a>
+                <button onclick="nextPage()" id="nextBtn">Next</button>
             </div>
         </div>
     </div>
@@ -146,5 +150,68 @@
     </p>
     <div class="copyright">© FabLab-NB | University of Nottingham Ningbo China</div>
 </div>
+
+<script>
+// 页面分页功能
+let currentPage = 1;
+const totalPages = 2;
+
+function showPage(pageNum) {
+    // 隐藏所有页面
+    document.querySelectorAll('.page-content').forEach(page => {
+        page.style.display = 'none';
+    });
+    
+    // 显示指定页面
+    document.getElementById(`page${pageNum}`).style.display = 'block';
+    
+    // 更新按钮状态
+    document.querySelectorAll('.btn a').forEach(btn => {
+        btn.classList.remove('cur');
+    });
+    document.getElementById(`page${pageNum}Btn`).classList.add('cur');
+    
+    // 更新当前页面
+    currentPage = pageNum;
+    
+    // 更新Previous/Next按钮状态
+    document.getElementById('prevBtn').disabled = (currentPage === 1);
+    document.getElementById('nextBtn').disabled = (currentPage === totalPages);
+}
+
+function prevPage() {
+    if (currentPage > 1) {
+        showPage(currentPage - 1);
+    }
+}
+
+function nextPage() {
+    if (currentPage < totalPages) {
+        showPage(currentPage + 1);
+    }
+}
+
+// Banner轮播功能
+const bannerImages = [
+    './img/hardware/banner01.png',
+    './img/hardware/banner02.jpg'
+];
+
+let currentBannerIndex = 0;
+const banner = document.getElementById('banner');
+
+function changeBanner() {
+    banner.style.backgroundImage = `url('${bannerImages[currentBannerIndex]}')`;
+    currentBannerIndex = (currentBannerIndex + 1) % bannerImages.length;
+}
+
+// 初始化页面
+showPage(1);
+// 设置初始banner
+changeBanner();
+// 每5秒切换一次banner
+setInterval(changeBanner, 5000);
+</script>
+
 </body>
 </html>
