@@ -1,8 +1,8 @@
 ---
 layout: home
 hero:
-  name: Course
-  text: how to make (almost) everything
+  name: how to make
+  text: (almost) everything
 
   actions:
     - theme: brand

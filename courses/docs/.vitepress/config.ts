@@ -44,9 +44,11 @@ export default defineConfig({
       {
         text: 'class',
         items: [
-          { text: 'Class A', link: '/class/class-a/' },
-          { text: 'Class B', link: '/class/class-b/' },
-          { text: 'Class C', link: '/class/class-c/' }
+          { text: 'FAB ACADEMY', link: '/class/fab academy/' },
+          { text: '2025-1', link: '/class/2025-1/' },
+          { text: '2025-2', link: '/class/2025-2/' }
+         
+          
         ]
       }
     ]
