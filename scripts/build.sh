@@ -15,7 +15,12 @@ mkdir -p "$DIST_DIR"
 if [ -d "$COURSES_DIR" ]; then
   if command -v npm >/dev/null 2>&1; then
     pushd "$COURSES_DIR" >/dev/null
-    npm install
+    # 强制安装 devDependencies，避免 CI 环境省略 dev 依赖
+    if [ -f package-lock.json ]; then
+      npm ci --include=dev
+    else
+      npm install --include=dev
+    fi
     npm run docs:build
     popd >/dev/null
   else
