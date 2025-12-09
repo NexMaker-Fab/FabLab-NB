@@ -1,9 +1,9 @@
 ---
 layout: home
 hero:
-  name: Courses
-  text: Lab Manage · Tutorials · Class
-  tagline: 课程与作业集中发布 / 路径 / 规范
+  name: Course
+  text: how to make (almost) everything
+
   actions:
     - theme: brand
       text: Lab Manage
