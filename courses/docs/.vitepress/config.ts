@@ -7,11 +7,11 @@ export default defineConfig({
   base: '/courses/',
   themeConfig: {
     nav: [
-      { text: 'Home', link: '/index.html' },
-      { text: 'Hardware', link: '/hardware.html' },
-      { text: 'Activity', link: '/activity.html' },
-      { text: 'Courses', link: '/courses/' },
-      { text: 'Exhibition', link: '/awards_patents_fullstyle.html' }
+      { text: 'Home', link: 'https://nbfablab.com/index.html' },
+      { text: 'Hardware', link: 'https://nbfablab.com/hardware.html' },
+      { text: 'Activity', link: 'https://nbfablab.com/activity.html' },
+      { text: 'Courses', link: 'https://nbfablab.com/courses/' },
+      { text: 'Exhibition', link: 'https://nbfablab.com/awards_patents_fullstyle.html' }
     ],
     sidebar: [
       {
