@@ -1,5 +1,3 @@
-# Tutorials / Project manage
+# Project manage
 
-- 文档 1：项目规划
-- 文档 2：协作与版本控制
-- 文档 3：交付与复盘
+- 项目规划、里程碑与协作规范（占位）。

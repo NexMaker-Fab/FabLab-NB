@@ -1,5 +1,3 @@
-# Tutorials / Arduino application
+# Arduino application
 
-- 文档 1：环境与基础语法
-- 文档 2：传感器与控制
-- 文档 3：通讯与扩展
+- 传感器、控制与通讯（占位）。
