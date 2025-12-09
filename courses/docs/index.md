@@ -1,13 +1,24 @@
 ---
 layout: home
 hero:
-  name: UNNC-FabLab 课程
-  text: 课程信息与作业展示
+  name: Courses
+  text: Lab Manage · Tutorials · Class
+  tagline: 课程与作业集中发布 / 路径 / 规范
   actions:
     - theme: brand
-      text: 进入课程导航
+      text: Lab Manage
       link: /lab-manage/fablab/
     - theme: alt
-      text: 返回主页
-      link: /index.html
+      text: Tutorials
+      link: /tutorials/project-manage/
+    - theme: alt
+      text: Class
+      link: /class/class-a/
+features:
+  - title: Lab Manage
+    details: FabLab / Fab Academy / Safety 的制度与流程
+  - title: Tutorials
+    details: 14 个专题，覆盖 CAD、3D 打印、电子、PCB、CNC 等
+  - title: Class
+    details: 班级 -> 学生 -> 每周作业与期末项目
 ---

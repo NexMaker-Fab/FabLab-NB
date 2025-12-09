@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   lang: 'zh-CN',
-  title: 'UNNC-FabLab 课程',
-  description: '课程信息与作业展示',
+  title: 'FabLab-NB',
+  description: 'UNNC-FabLab Courses | 课程与作业站点',
   base: '/courses/',
   themeConfig: {
     nav: [
